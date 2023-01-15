@@ -1,0 +1,14 @@
+body {
+    background-color: blue;
+}
+
+h1 {
+    background-color: white;
+    color: blue;
+    text-align: center;
+}
+
+div {
+    background-color: purple;
+    color: white;
+}
