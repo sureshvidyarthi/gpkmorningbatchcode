@@ -98,6 +98,100 @@ a:hover {
     border: 2px solid red;
 } */
 
-span {
+/* span {
     border: 2px solid blue;
+} */
+
+/* h1 {
+    color: red;
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: red;
+}
+
+h4 {
+    color: red;
+} */
+
+/* class and id */
+/* .class1 {
+    color: purple;
+}
+
+.class2 {
+    color: blue;
+}
+
+#id1 {
+    color: orangered;
+}
+
+.class3 {
+    color: green;
+    background-color: black;
+} */
+
+/* opacity */
+
+/* h1 {
+    color: blue;
+    opacity: 0.6;
+} */
+
+
+
+/* table in css */
+h3 {
+    color: white;
+    background-color: purple;
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 2px solid purple;
+    color: purple;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    text-align: center;
+    padding: 4px;
+}
+
+
+/* navigation bar */
+ul {
+    list-style-type: none;
+    background-color: purple;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+li a:hover {
+    color: black;
 }
