@@ -1,0 +1,167 @@
+/* transform */
+/* div {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    transform: translate(100px, 200px);
+    transform: rotate(45deg);
+    transform: scale(1.5);
+    transform: skew(60deg);
+    margin: 100px;
+} */
+
+/* transition effect */
+/* div {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 20px;
+    margin: 100px;
+    transition: height 1s, width 1s, transform 10s;
+}
+
+div:hover {
+    height: 400px;
+    width: 400px;
+    transform: rotate(20000deg);
+    background-color: purple;
+} */
+
+/* animation */
+/* div {
+    height: 100px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rebeccapurple;
+} */
+
+/* @keyframes moveable {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: orange;
+    }
+}
+
+div {
+    height: 200px;
+    width: 240px;
+    animation-name: moveable;
+    animation-duration: 4s;
+} */
+
+/* @keyframes colorchange {
+    0% {
+        background-color: red;
+    }
+
+    10% {
+        background-color: purple;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    75% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: green;
+    }
+} */
+
+/* div {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: red;
+    animation-name: colorchange;
+    animation-duration: 4s;
+} */
+
+@keyframes move {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+div {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    position: relative;
+    background-color: red;
+    animation-name: move;
+    animation-duration: 4s;
+    /* animation-delay: 10s; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@media screen and (max-width:500px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media screen and (min-width:501px) {
+    body {
+        background-color: purple;
+    }
+
+    div {
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        border-radius: 20px;
+        margin: 100px;
+        transition: height 1s, width 1s, transform 10s;
+    }
+
+    div:hover {
+        height: 400px;
+        width: 400px;
+        transform: rotate(20000deg);
+        background-color: purple;
+    }
+}
+
+@media screen and (min-width:701px) {
+    body {
+        background-color: blue;
+    }
+}
